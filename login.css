@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background-color:palevioletred;
+    will-change: auto;
+}
+.main{
+    background-color: cyan;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px 30px;
+    border-radius: 20px;
+}
+.pro{
+    background-color: aqua;
+}
+h3{
+    position: relative;
+    font-size:200%;
+    color: black;
+}
+h6{
+    font-size: 100%;
+    color: black;
+}
+h6:hover{
+    color: green;
+}
+button{
+    background-color: gray;
+    border-radius: 15px;
+    padding: 15px 30px;
+    font-size: 125%;
+}
+button:hover{
+    background-color: lawngreen;
+}
